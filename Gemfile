@@ -18,6 +18,8 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.4.1'
   gem 'factory_girl_rails', '4.4.1'
+  gem 'cucumber-rails', '~> 1.4.1', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
